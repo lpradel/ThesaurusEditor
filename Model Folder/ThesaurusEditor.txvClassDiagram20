@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhglas5inih99k2u">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="ThesaurusEditor"/>
+		<property name="__options" value="Diagram Detail Level=Implementation"/>
+	</view>
+</nodeSet>

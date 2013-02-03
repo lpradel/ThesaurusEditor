@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhgldjh6kqmov2to">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true&#10;Diagram Detail Level=Implementation"/>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Konzept">
+			<property name="bounds" value="615,695,300,360"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Konzept:lnkSpezialisierungen">
+				<property name="sourceAnchor" value="800,944"/>
+				<property name="targetAnchor" value="792,954"/>
+				<property name="bendpoints" value="835,944,835,989,792,989"/>
+				<property name="smooth_bendpoints" value="835,944,835,989,792,989"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Konzept:lnkSpezialisierungen">
+					<property name="bounds" value="822,966,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Konzept:lnkSprachrepraesentation">
+				<property name="sourceAnchor" value="735,620"/>
+				<property name="targetAnchor" value="735,602"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Konzept:lnkSprachrepraesentation">
+					<property name="bounds" value="738,592,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Konzept:lnkSchema">
+				<property name="sourceAnchor" value="600,707"/>
+				<property name="targetAnchor" value="260,707"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Konzept:lnkSchema">
+					<property name="bounds" value="270,684,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:e_method:src:thesaurusEditor.Konzept.hatBevBezeichnung:hatBevBezeichnung~QSprache;">
+				<property name="bounds" value="72,-5,0,0"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Konzept:lnkGeneralisierungen">
+				<property name="sourceAnchor" value="800,949"/>
+				<property name="targetAnchor" value="796,954"/>
+				<property name="bendpoints" value="830,949,830,984,796,984"/>
+				<property name="smooth_bendpoints" value="830,949,830,984,796,984"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Konzept:lnkGeneralisierungen">
+					<property name="bounds" value="806,961,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Konzept:lnkURI">
+				<property name="sourceAnchor" value="620,801"/>
+				<property name="targetAnchor" value="540,801"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Thesaurus">
+			<property name="bounds" value="255,395,200,286"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkExporter">
+				<property name="sourceAnchor" value="260,486"/>
+				<property name="targetAnchor" value="231,486"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:hauptSprache">
+				<property name="sourceAnchor" value="460,425"/>
+				<property name="targetAnchor" value="500,425"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkKonzept">
+				<property name="sourceAnchor" value="459,636"/>
+				<property name="targetAnchor" value="620,781"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkKonzept">
+					<property name="bounds" value="602,743,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:defaultSchema">
+				<property name="sourceAnchor" value="259,666"/>
+				<property name="targetAnchor" value="217,720"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkSprachen">
+				<property name="sourceAnchor" value="460,415"/>
+				<property name="targetAnchor" value="500,415"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkSprachen">
+					<property name="bounds" value="479,392,11,20"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkSchema">
+				<property name="sourceAnchor" value="260,656"/>
+				<property name="targetAnchor" value="210,720"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:thesaurusEditor.Thesaurus:lnkSchema">
+					<property name="bounds" value="177,696,31,20"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Schema">
+			<property name="bounds" value="35,715,200,190"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Schema:lnkTopKonzepte">
+				<property name="sourceAnchor" value="260,699"/>
+				<property name="targetAnchor" value="600,699"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Schema:lnkURI">
+				<property name="sourceAnchor" value="240,747"/>
+				<property name="targetAnchor" value="300,747"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Sprache">
+			<property name="bounds" value="495,335,180,120"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Controller">
+			<property name="bounds" value="254,15,200,360"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Controller:aktuellesKonzept">
+				<property name="sourceAnchor" value="458,346"/>
+				<property name="targetAnchor" value="620,759"/>
+				<property name="bendpoints" value="480,380,480,600"/>
+				<property name="smooth_bendpoints" value="480,380,480,600"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Controller:lnkThesaurus">
+				<property name="sourceAnchor" value="359,380"/>
+				<property name="targetAnchor" value="359,400"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.URI">
+			<property name="bounds" value="295,735,240,142"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Sprachrepraesentation">
+			<property name="bounds" value="705,335,209,302"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:thesaurusEditor.Sprachrepraesentation:lnkSprache">
+				<property name="sourceAnchor" value="710,384"/>
+				<property name="targetAnchor" value="680,384"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.BezeichnungsTyp">
+			<property name="bounds" value="495,475,160,120"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.Exporter">
+			<property name="bounds" value="26,441,200,94"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:thesaurusEditor.ExportException">
+			<property name="bounds" value="26,315,200,100"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

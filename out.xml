@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://purl.org/dc/elements/1.1/">
+    <skos:Concept rdf:about="http://test.de/concepts#lol">
+        <skos:narrowerTransitive rdf:resource="http://test.de/concepts#secondconcept"/>
+        <skos:prefLabel xml:lang="de">LOL</skos:prefLabel>
+        <skos:altLabel xml:lang="de">alternativer, deutscher Bezeichner</skos:altLabel>
+        <skos:scopeNote xml:lang="de">deutsche Beschreibung :D</skos:scopeNote>
+        <skos:example xml:lang="de">deutsches Beispiel, ROFL!</skos:example>
+        <skos:prefLabel xml:lang="en">Laughing out Loud!</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">versteckter, englischer Bezeichner</skos:hiddenLabel>
+        <skos:definition xml:lang="en">english definition :O</skos:definition>
+        <skos:scopeNote xml:lang="en">english description :D</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://test.de/concepts#secondconcept">
+        <skos:broaderTransitive rdf:resource="http://test.de/concepts#lol"/>
+        <skos:prefLabel xml:lang="en">second Concept^^</skos:prefLabel>
+    </skos:Concept>
+    <skos:ConceptScheme rdf:about="http://test.de/schemes#default">
+        <skos:hasTopConcept rdf:resource="http://test.de/concepts#lol"/>
+        <skos:hasTopConcept rdf:resource="http://test.de/concepts#secondconcept"/>
+        <skos:scopeNote>default</skos:scopeNote>
+    </skos:ConceptScheme>
+</rdf:RDF>

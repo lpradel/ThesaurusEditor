@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhglas3u0a-9gvqao">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="visibility" value="public"/>
+		<reference referencedUin="design:view:::V1hexuhglas5inih99k2u">
+			<property name="bounds" value="5,5,139,200"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Thesaurus">
+			<property name="bounds" value="195,-4,200,231"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:hauptSprache">
+				<property name="sourceAnchor" value="255,1"/>
+				<property name="targetAnchor" value="255,199"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:lnkSprachen">
+				<property name="sourceAnchor" value="263,1"/>
+				<property name="targetAnchor" value="263,199"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Thesaurus:lnkSprachen">
+					<property name="bounds" value="266,191,9,17"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:defaultSchema">
+				<property name="sourceAnchor" value="200,58"/>
+				<property name="targetAnchor" value="114,159"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:lnkSchema">
+				<property name="sourceAnchor" value="202,95"/>
+				<property name="targetAnchor" value="121,159"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Thesaurus:lnkSchema">
+					<property name="bounds" value="152,97,24,17"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:lnkKonzept">
+				<property name="sourceAnchor" value="200,122"/>
+				<property name="targetAnchor" value="172,142"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Thesaurus:lnkKonzept">
+					<property name="bounds" value="172,116,9,17"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Thesaurus:lnkExporter">
+				<property name="sourceAnchor" value="249,1"/>
+				<property name="targetAnchor" value="249,180"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Konzept">
+			<property name="bounds" value="106,137,200,267"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkSprachrepraesentation">
+				<property name="sourceAnchor" value="310,161"/>
+				<property name="targetAnchor" value="350,161"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkSprachrepraesentation">
+					<property name="bounds" value="346,141,9,17"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkURI">
+				<property name="sourceAnchor" value="185,142"/>
+				<property name="targetAnchor" value="185,227"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkGeneralisierungen">
+				<property name="sourceAnchor" value="311,405"/>
+				<property name="targetAnchor" value="307,409"/>
+				<property name="bendpoints" value="340,405,340,438,307,438"/>
+				<property name="smooth_bendpoints" value="340,405,340,438,307,438"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkGeneralisierungen">
+<<<<<<< .mine
+					<property name="bounds" value="310,396,9,16"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkspezialisierungen">
+				<property name="sourceAnchor" value="205,218"/>
+				<property name="targetAnchor" value="197,222"/>
+				<property name="bendpoints" value="238,218,238,255,197,255"/>
+				<property name="smooth_bendpoints" value="238,218,238,255,197,255"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkspezialisierungen">
+					<property name="bounds" value="217,231,11,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkSpezialisierungen">
+				<property name="sourceAnchor" value="311,384"/>
+				<property name="targetAnchor" value="303,392"/>
+				<property name="bendpoints" value="344,384,344,425,303,425"/>
+				<property name="smooth_bendpoints" value="344,384,344,425,303,425"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkSpezialisierungen">
+					<property name="bounds" value="323,406,9,16"/>
+=======
+					<property name="bounds" value="310,412,9,17"/>
+>>>>>>> .r534
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkSchema">
+				<property name="sourceAnchor" value="112,142"/>
+				<property name="targetAnchor" value="96,159"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkSchema">
+					<property name="bounds" value="-2,159,9,16"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkSpezialisierungen">
+				<property name="sourceAnchor" value="311,401"/>
+				<property name="targetAnchor" value="303,409"/>
+				<property name="bendpoints" value="344,401,344,442,303,442"/>
+				<property name="smooth_bendpoints" value="344,401,344,442,303,442"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkSpezialisierungen">
+					<property name="bounds" value="323,422,9,17"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Konzept:lnkSchema">
+				<property name="sourceAnchor" value="112,142"/>
+				<property name="targetAnchor" value="96,159"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Konzept:lnkSchema">
+					<property name="bounds" value="-3,159,9,17"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Schema">
+			<property name="bounds" value="17,154,184,140"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Schema:lnkURI">
+				<property name="sourceAnchor" value="126,159"/>
+				<property name="targetAnchor" value="126,233"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Schema:lnkTopKonzepte">
+				<property name="sourceAnchor" value="111,159"/>
+				<property name="targetAnchor" value="111,149"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Schema:lnkTopKonzepte">
+					<property name="bounds" value="114,141,9,17"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Sprachrepraesentation">
+			<property name="bounds" value="345,95,200,205"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Sprachrepraesentation:lnkSprache">
+				<property name="sourceAnchor" value="350,201"/>
+				<property name="targetAnchor" value="322,201"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Sprachrepraesentation:lnkAltBezeichner">
+				<property name="sourceAnchor" value="367,100"/>
+				<property name="targetAnchor" value="367,81"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Sprachrepraesentation:lnkAltBezeichner">
+					<property name="bounds" value="460,65,9,16"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Sprachrepraesentation:lnkBevorzugterBezeichner">
+				<property name="sourceAnchor" value="375,100"/>
+				<property name="targetAnchor" value="375,81"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Sprachrepraesentation:lnkVersteckteBezeichner">
+				<property name="sourceAnchor" value="359,100"/>
+				<property name="targetAnchor" value="359,81"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Sprachrepraesentation:lnkVersteckteBezeichner">
+					<property name="bounds" value="462,65,9,16"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Sprache">
+			<property name="bounds" value="210,194,106,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:URI">
+			<property name="bounds" value="121,222,130,127"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Controller">
+			<property name="bounds" value="400,-4,198,296"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkThesaurus">
+				<property name="sourceAnchor" value="405,41"/>
+				<property name="targetAnchor" value="400,41"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:aktuellesKonzept">
+				<property name="sourceAnchor" value="405,148"/>
+				<property name="targetAnchor" value="311,148"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:BezeichnungsTyp">
+			<property name="bounds" value="433,296,127,111"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Exporter">
+			<property name="bounds" value="195,95,97,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,2157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analyzer-configuration version="1.0">
+<analyzer id="SSSIDC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="AFLV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CA" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="Strict" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CIUCFL" inspector="Audit">
+<settings>
+<parameter id="Maximum" type="0" value="3"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CQS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="ignoreLazyInitialization" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="ULCI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EIAV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="LF" inspector="Audit">
+<settings>
+<parameter id="max-lines" type="0" value="2000"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="LL" inspector="Audit">
+<settings>
+<parameter id="max-line" type="0" value="80"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="end-line-comment" type="1" value="false"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+<parameter id="tab-size" type="0" value="4"/>
+</settings>
+</analyzer>
+<analyzer id="MSOL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="NFSF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="NOIS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="NLC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="OSNBU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PCO" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PCSS" inspector="Audit">
+<settings>
+<parameter id="Side" type="4" value="0"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="PDBB" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PIFS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PSIB" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="RICEC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="RIP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="deprecated packages" type="5"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="RCD" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="check-non-public" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="check-non-instantiable" type="1" value="true"/>
+<parameter id="check-public" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="TVUSP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="UAAO" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="UL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ACD" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AUES" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CSI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CVSBF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="DCI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="DCFC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ICSBF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IMCM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+</settings>
+</analyzer>
+<analyzer id="IMMD" inspector="Audit">
+<settings>
+<parameter id="signature" type="1" value="true"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="position" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="MCS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="MCP" inspector="Audit">
+<settings>
+<parameter id="Allow protected" type="1" value="false"/>
+<parameter id="Allow public" type="1" value="false"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="Allow internal" type="1" value="true"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="MVDOS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="MVDSN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ODCM" inspector="Audit">
+<settings>
+<parameter id="decl_order" type="4" value="0"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="OHCE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="filter-out" type="2" value="DelphiWin32"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ONAMAM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="OPM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="OWS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PMSNT" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="PPA" inspector="Audit">
+<settings>
+<parameter id="Allow package attributes" type="1" value="false"/>
+<parameter id="Formally" type="1" value="false"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PPCF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SCD" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="BTJC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="tag-list" type="5">
+<parameter id="@author" type="2" value=""/>
+<parameter id="@docRoot" type="2" value=""/>
+<parameter id="@deprecated" type="2" value=""/>
+<parameter id="@exception" type="2" value=""/>
+<parameter id="@inheritDoc" type="2" value=""/>
+<parameter id="@link" type="2" value=""/>
+<parameter id="@linkplain" type="2" value=""/>
+<parameter id="@param" type="2" value=""/>
+<parameter id="@return" type="2" value=""/>
+<parameter id="@see" type="2" value=""/>
+<parameter id="@serial" type="2" value=""/>
+<parameter id="@serialData" type="2" value=""/>
+<parameter id="@serialField" type="2" value=""/>
+<parameter id="@since" type="2" value=""/>
+<parameter id="@throws" type="2" value=""/>
+<parameter id="@value" type="2" value=""/>
+<parameter id="@version" type="2" value=""/>
+<parameter id="@role" type="2" value=""/>
+<parameter id="@associationAsClass" type="2" value=""/>
+<parameter id="@associates" type="2" value=""/>
+<parameter id="@clientCardinality" type="2" value=""/>
+<parameter id="@clientQualifier" type="2" value=""/>
+<parameter id="@clientRole" type="2" value=""/>
+<parameter id="@directed" type="2" value=""/>
+<parameter id="@label" type="2" value=""/>
+<parameter id="@labelDirection" type="2" value=""/>
+<parameter id="@supplierCardinality" type="2" value=""/>
+<parameter id="@supplierQualifier" type="2" value=""/>
+<parameter id="@supplierRole" type="2" value=""/>
+</parameter>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PFC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="Check class name" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_CL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_CONSOLE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_FDESCR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_FILES" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_IO" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_JDBC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_NATIVE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_REFL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SEC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SECOBJ" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SFACT" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SOCKET" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SUBST" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_THREADS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_SESSION" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_HOME" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_ENTITY" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_OBJECT" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_MESSAGE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EJB_NAMES" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CNSMFN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="NC" inspector="Audit">
+<settings>
+<parameter id="prefixOurField-java" type="2" value="our"/>
+<parameter id="otherFieldConvention-java" type="4" value="3"/>
+<parameter id="prefixOurField-delphi" type="2" value=""/>
+<parameter id="namespaceConvention-vbnet" type="4" value="1"/>
+<parameter id="prefixOurField-csharp" type="2" value=""/>
+<parameter id="namespaceConvention-java" type="4" value="2"/>
+<parameter id="publicFieldConvention-vbnet" type="4" value="1"/>
+<parameter id="namespaceConvention-csharp" type="4" value="1"/>
+<parameter id="staticFieldConvention-vbnet" type="4" value="1"/>
+<parameter id="prefixMyField-cpp" type="2" value=""/>
+<parameter id="prefixMyField-vbnet" type="2" value=""/>
+<parameter id="staticFieldConvention-java" type="4" value="3"/>
+<parameter id="variableConvention-cpp" type="4" value="3"/>
+<parameter id="constFieldConvention-vbnet" type="4" value="1"/>
+<parameter id="constFieldConvention-delphi" type="4" value="1"/>
+<parameter id="operationConvention-csharp" type="4" value="1"/>
+<parameter id="exceptionClasses" type="1" value="true"/>
+<parameter id="publicFieldConvention-delphi" type="4" value="1"/>
+<parameter id="constFieldConvention-java" type="4" value="4"/>
+<parameter id="publicFieldConvention-csharp" type="4" value="1"/>
+<parameter id="classConvention-java" type="4" value="1"/>
+<parameter id="staticFieldConvention-delphi" type="4" value="1"/>
+<parameter id="variableConvention-java" type="4" value="3"/>
+<parameter id="classConvention-cpp" type="4" value="1"/>
+<parameter id="otherFieldConvention-delphi" type="4" value="1"/>
+<parameter id="prefixMyField-java" type="2" value="my"/>
+<parameter id="publicFieldConvention-cpp" type="4" value="3"/>
+<parameter id="operationConvention-vbnet" type="4" value="1"/>
+<parameter id="prefixMyField-delphi" type="2" value=""/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="operationConvention-delphi" type="4" value="1"/>
+<parameter id="variableConvention-delphi" type="4" value="3"/>
+<parameter id="checkInterfaceFirstLetter" type="1" value="false"/>
+<parameter id="publicFieldConvention-java" type="4" value="3"/>
+<parameter id="constFieldConvention-cpp" type="4" value="4"/>
+<parameter id="variableConvention-csharp" type="4" value="3"/>
+<parameter id="variableConvention-vbnet" type="4" value="3"/>
+<parameter id="staticFieldConvention-csharp" type="4" value="1"/>
+<parameter id="classConvention-delphi" type="4" value="1"/>
+<parameter id="namespaceConvention-cpp" type="4" value="2"/>
+<parameter id="prefixOurField-vbnet" type="2" value=""/>
+<parameter id="prefixOurField-cpp" type="2" value=""/>
+<parameter id="operationConvention-cpp" type="4" value="3"/>
+<parameter id="staticFieldConvention-cpp" type="4" value="3"/>
+<parameter id="constFieldConvention-csharp" type="4" value="1"/>
+<parameter id="classConvention-vbnet" type="4" value="1"/>
+<parameter id="operationConvention-java" type="4" value="3"/>
+<parameter id="prefixMyField-csharp" type="2" value=""/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="classConvention-csharp" type="4" value="1"/>
+<parameter id="otherFieldConvention-csharp" type="4" value="1"/>
+<parameter id="namespaceConvention-delphi" type="4" value="1"/>
+<parameter id="otherFieldConvention-cpp" type="4" value="3"/>
+<parameter id="otherFieldConvention-vbnet" type="4" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="PN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="domain-list" type="5">
+<parameter id="ad" type="2" value=""/>
+<parameter id="ae" type="2" value=""/>
+<parameter id="af" type="2" value=""/>
+<parameter id="ag" type="2" value=""/>
+<parameter id="ai" type="2" value=""/>
+<parameter id="al" type="2" value=""/>
+<parameter id="am" type="2" value=""/>
+<parameter id="an" type="2" value=""/>
+<parameter id="ao" type="2" value=""/>
+<parameter id="aq" type="2" value=""/>
+<parameter id="ar" type="2" value=""/>
+<parameter id="as" type="2" value=""/>
+<parameter id="at" type="2" value=""/>
+<parameter id="au" type="2" value=""/>
+<parameter id="aw" type="2" value=""/>
+<parameter id="az" type="2" value=""/>
+<parameter id="ba" type="2" value=""/>
+<parameter id="bb" type="2" value=""/>
+<parameter id="bd" type="2" value=""/>
+<parameter id="be" type="2" value=""/>
+<parameter id="bf" type="2" value=""/>
+<parameter id="bg" type="2" value=""/>
+<parameter id="bh" type="2" value=""/>
+<parameter id="bi" type="2" value=""/>
+<parameter id="bj" type="2" value=""/>
+<parameter id="bm" type="2" value=""/>
+<parameter id="bn" type="2" value=""/>
+<parameter id="bo" type="2" value=""/>
+<parameter id="br" type="2" value=""/>
+<parameter id="bs" type="2" value=""/>
+<parameter id="bt" type="2" value=""/>
+<parameter id="bv" type="2" value=""/>
+<parameter id="bw" type="2" value=""/>
+<parameter id="by" type="2" value=""/>
+<parameter id="bz" type="2" value=""/>
+<parameter id="ca" type="2" value=""/>
+<parameter id="cc" type="2" value=""/>
+<parameter id="cf" type="2" value=""/>
+<parameter id="cg" type="2" value=""/>
+<parameter id="ch" type="2" value=""/>
+<parameter id="ci" type="2" value=""/>
+<parameter id="ck" type="2" value=""/>
+<parameter id="cl" type="2" value=""/>
+<parameter id="cm" type="2" value=""/>
+<parameter id="cn" type="2" value=""/>
+<parameter id="co" type="2" value=""/>
+<parameter id="cr" type="2" value=""/>
+<parameter id="cs" type="2" value=""/>
+<parameter id="cu" type="2" value=""/>
+<parameter id="cv" type="2" value=""/>
+<parameter id="cx" type="2" value=""/>
+<parameter id="cy" type="2" value=""/>
+<parameter id="cz" type="2" value=""/>
+<parameter id="de" type="2" value=""/>
+<parameter id="dj" type="2" value=""/>
+<parameter id="dk" type="2" value=""/>
+<parameter id="dm" type="2" value=""/>
+<parameter id="do" type="2" value=""/>
+<parameter id="dz" type="2" value=""/>
+<parameter id="ec" type="2" value=""/>
+<parameter id="ee" type="2" value=""/>
+<parameter id="eg" type="2" value=""/>
+<parameter id="eh" type="2" value=""/>
+<parameter id="er" type="2" value=""/>
+<parameter id="es" type="2" value=""/>
+<parameter id="et" type="2" value=""/>
+<parameter id="fi" type="2" value=""/>
+<parameter id="fj" type="2" value=""/>
+<parameter id="fk" type="2" value=""/>
+<parameter id="fm" type="2" value=""/>
+<parameter id="fo" type="2" value=""/>
+<parameter id="fr" type="2" value=""/>
+<parameter id="fx" type="2" value=""/>
+<parameter id="ga" type="2" value=""/>
+<parameter id="gb" type="2" value=""/>
+<parameter id="gd" type="2" value=""/>
+<parameter id="ge" type="2" value=""/>
+<parameter id="gf" type="2" value=""/>
+<parameter id="gh" type="2" value=""/>
+<parameter id="gi" type="2" value=""/>
+<parameter id="gl" type="2" value=""/>
+<parameter id="gm" type="2" value=""/>
+<parameter id="gn" type="2" value=""/>
+<parameter id="gp" type="2" value=""/>
+<parameter id="gq" type="2" value=""/>
+<parameter id="gr" type="2" value=""/>
+<parameter id="gs" type="2" value=""/>
+<parameter id="gt" type="2" value=""/>
+<parameter id="gu" type="2" value=""/>
+<parameter id="gw" type="2" value=""/>
+<parameter id="gy" type="2" value=""/>
+<parameter id="hk" type="2" value=""/>
+<parameter id="hm" type="2" value=""/>
+<parameter id="hn" type="2" value=""/>
+<parameter id="hr" type="2" value=""/>
+<parameter id="ht" type="2" value=""/>
+<parameter id="hu" type="2" value=""/>
+<parameter id="id" type="2" value=""/>
+<parameter id="ie" type="2" value=""/>
+<parameter id="il" type="2" value=""/>
+<parameter id="in" type="2" value=""/>
+<parameter id="io" type="2" value=""/>
+<parameter id="iq" type="2" value=""/>
+<parameter id="ir" type="2" value=""/>
+<parameter id="is" type="2" value=""/>
+<parameter id="it" type="2" value=""/>
+<parameter id="jm" type="2" value=""/>
+<parameter id="jo" type="2" value=""/>
+<parameter id="jp" type="2" value=""/>
+<parameter id="ke" type="2" value=""/>
+<parameter id="kg" type="2" value=""/>
+<parameter id="kh" type="2" value=""/>
+<parameter id="ki" type="2" value=""/>
+<parameter id="km" type="2" value=""/>
+<parameter id="kn" type="2" value=""/>
+<parameter id="kp" type="2" value=""/>
+<parameter id="kr" type="2" value=""/>
+<parameter id="kw" type="2" value=""/>
+<parameter id="ky" type="2" value=""/>
+<parameter id="kz" type="2" value=""/>
+<parameter id="la" type="2" value=""/>
+<parameter id="lb" type="2" value=""/>
+<parameter id="lc" type="2" value=""/>
+<parameter id="li" type="2" value=""/>
+<parameter id="lk" type="2" value=""/>
+<parameter id="lr" type="2" value=""/>
+<parameter id="ls" type="2" value=""/>
+<parameter id="lt" type="2" value=""/>
+<parameter id="lu" type="2" value=""/>
+<parameter id="lv" type="2" value=""/>
+<parameter id="ly" type="2" value=""/>
+<parameter id="ma" type="2" value=""/>
+<parameter id="mc" type="2" value=""/>
+<parameter id="md" type="2" value=""/>
+<parameter id="mg" type="2" value=""/>
+<parameter id="mh" type="2" value=""/>
+<parameter id="mk" type="2" value=""/>
+<parameter id="ml" type="2" value=""/>
+<parameter id="mm" type="2" value=""/>
+<parameter id="mn" type="2" value=""/>
+<parameter id="mo" type="2" value=""/>
+<parameter id="mp" type="2" value=""/>
+<parameter id="mq" type="2" value=""/>
+<parameter id="mr" type="2" value=""/>
+<parameter id="ms" type="2" value=""/>
+<parameter id="mt" type="2" value=""/>
+<parameter id="mu" type="2" value=""/>
+<parameter id="mv" type="2" value=""/>
+<parameter id="mw" type="2" value=""/>
+<parameter id="mx" type="2" value=""/>
+<parameter id="my" type="2" value=""/>
+<parameter id="mz" type="2" value=""/>
+<parameter id="na" type="2" value=""/>
+<parameter id="nc" type="2" value=""/>
+<parameter id="ne" type="2" value=""/>
+<parameter id="nf" type="2" value=""/>
+<parameter id="ng" type="2" value=""/>
+<parameter id="ni" type="2" value=""/>
+<parameter id="nl" type="2" value=""/>
+<parameter id="no" type="2" value=""/>
+<parameter id="np" type="2" value=""/>
+<parameter id="nr" type="2" value=""/>
+<parameter id="nt" type="2" value=""/>
+<parameter id="nu" type="2" value=""/>
+<parameter id="nz" type="2" value=""/>
+<parameter id="om" type="2" value=""/>
+<parameter id="pa" type="2" value=""/>
+<parameter id="pe" type="2" value=""/>
+<parameter id="pf" type="2" value=""/>
+<parameter id="pg" type="2" value=""/>
+<parameter id="ph" type="2" value=""/>
+<parameter id="pk" type="2" value=""/>
+<parameter id="pl" type="2" value=""/>
+<parameter id="pm" type="2" value=""/>
+<parameter id="pn" type="2" value=""/>
+<parameter id="pr" type="2" value=""/>
+<parameter id="pt" type="2" value=""/>
+<parameter id="pw" type="2" value=""/>
+<parameter id="py" type="2" value=""/>
+<parameter id="qa" type="2" value=""/>
+<parameter id="re" type="2" value=""/>
+<parameter id="ro" type="2" value=""/>
+<parameter id="ru" type="2" value=""/>
+<parameter id="rw" type="2" value=""/>
+<parameter id="sa" type="2" value=""/>
+<parameter id="sb" type="2" value=""/>
+<parameter id="sc" type="2" value=""/>
+<parameter id="sd" type="2" value=""/>
+<parameter id="se" type="2" value=""/>
+<parameter id="sg" type="2" value=""/>
+<parameter id="sh" type="2" value=""/>
+<parameter id="si" type="2" value=""/>
+<parameter id="sj" type="2" value=""/>
+<parameter id="sk" type="2" value=""/>
+<parameter id="sl" type="2" value=""/>
+<parameter id="sm" type="2" value=""/>
+<parameter id="sn" type="2" value=""/>
+<parameter id="so" type="2" value=""/>
+<parameter id="sr" type="2" value=""/>
+<parameter id="st" type="2" value=""/>
+<parameter id="su" type="2" value=""/>
+<parameter id="sv" type="2" value=""/>
+<parameter id="sy" type="2" value=""/>
+<parameter id="sz" type="2" value=""/>
+<parameter id="tc" type="2" value=""/>
+<parameter id="td" type="2" value=""/>
+<parameter id="tf" type="2" value=""/>
+<parameter id="tg" type="2" value=""/>
+<parameter id="th" type="2" value=""/>
+<parameter id="tj" type="2" value=""/>
+<parameter id="tk" type="2" value=""/>
+<parameter id="tm" type="2" value=""/>
+<parameter id="tn" type="2" value=""/>
+<parameter id="to" type="2" value=""/>
+<parameter id="tp" type="2" value=""/>
+<parameter id="tr" type="2" value=""/>
+<parameter id="tt" type="2" value=""/>
+<parameter id="tv" type="2" value=""/>
+<parameter id="tw" type="2" value=""/>
+<parameter id="tz" type="2" value=""/>
+<parameter id="ua" type="2" value=""/>
+<parameter id="ug" type="2" value=""/>
+<parameter id="uk" type="2" value=""/>
+<parameter id="um" type="2" value=""/>
+<parameter id="us" type="2" value=""/>
+<parameter id="uy" type="2" value=""/>
+<parameter id="uz" type="2" value=""/>
+<parameter id="va" type="2" value=""/>
+<parameter id="vc" type="2" value=""/>
+<parameter id="ve" type="2" value=""/>
+<parameter id="vg" type="2" value=""/>
+<parameter id="vi" type="2" value=""/>
+<parameter id="vn" type="2" value=""/>
+<parameter id="vu" type="2" value=""/>
+<parameter id="wf" type="2" value=""/>
+<parameter id="ws" type="2" value=""/>
+<parameter id="ye" type="2" value=""/>
+<parameter id="yt" type="2" value=""/>
+<parameter id="yu" type="2" value=""/>
+<parameter id="za" type="2" value=""/>
+<parameter id="zm" type="2" value=""/>
+<parameter id="zr" type="2" value=""/>
+<parameter id="zw" type="2" value=""/>
+<parameter id="com" type="2" value=""/>
+<parameter id="edu" type="2" value=""/>
+<parameter id="gov" type="2" value=""/>
+<parameter id="int" type="2" value=""/>
+<parameter id="mil" type="2" value=""/>
+<parameter id="net" type="2" value=""/>
+<parameter id="org" type="2" value=""/>
+<parameter id="arpa" type="2" value=""/>
+<parameter id="nato" type="2" value=""/>
+</parameter>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="UCVN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="name-list-cpp" type="5">
+<parameter id="char" type="2" value="c,b"/>
+<parameter id="unsigned char" type="2" value="c,b"/>
+<parameter id="short" type="2" value="i,j,k"/>
+<parameter id="unsigned short" type="2" value="i,j,k"/>
+<parameter id="int" type="2" value="i,j,k"/>
+<parameter id="unsigned int" type="2" value="i,j,k"/>
+<parameter id="long long" type="2" value="k"/>
+<parameter id="unsigned long" type="2" value="k"/>
+<parameter id="float" type="2" value="f"/>
+<parameter id="double" type="2" value="d"/>
+<parameter id="unsigned char*" type="2" value="s"/>
+<parameter id="pointer" type="2" value="p,t"/>
+</parameter>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+<parameter id="name-list-java" type="5">
+<parameter id="byte" type="2" value="b"/>
+<parameter id="char" type="2" value="c"/>
+<parameter id="short" type="2" value="i,j,k"/>
+<parameter id="int" type="2" value="i,j,k"/>
+<parameter id="long" type="2" value="k"/>
+<parameter id="float" type="2" value="f"/>
+<parameter id="double" type="2" value="d"/>
+<parameter id="java.lang.Exception" type="2" value="e"/>
+<parameter id="java.lang.Object" type="2" value="o"/>
+<parameter id="java.lang.String" type="2" value="s"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="JDBC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ASWL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CSOSL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="DTC" inspector="Audit">
+<settings>
+<parameter id="maxcasts" type="0" value="1"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="TMSSC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="RIEWS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="mincases" type="0" value="3"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="SRVLV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="BAAS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="MIC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="ENH" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="RVNC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="ACE" inspector="Audit">
+<settings>
+<parameter id="message-out" type="2" value="AuditACE.1,"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="BSMC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CAMC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CFPV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="CEV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="COCC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="OnlyNewContainers" type="1" value="false"/>
+<parameter id="HeterogenousContainers" type="1" value="false"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CSC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CTCOC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="DIC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="DUCOCRV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="ECF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ECNHS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="HC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IAC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IET" inspector="Audit">
+<settings>
+<parameter id="GlobalAnalysis" type="1" value="false"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IFM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IMCO" inspector="Audit">
+<settings>
+<parameter id="GlobalAnalysis" type="1" value="false"/>
+<parameter id="AutomatonFilePath" type="2" value=""/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ITCOC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="ErrorsOnly" type="1" value="true"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IVNU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="MAP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="MIED" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="MaxViolationsPercent" type="0" value="20"/>
+<parameter id="MinElements" type="0" value="10"/>
+<parameter id="DuplicatesOnly" type="1" value="false"/>
+<parameter id="MaxGap" type="0" value="100"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="MNOM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="max_differences" type="0" value="1"/>
+<parameter id="min_name_length" type="0" value="4"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="MLOWP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="MWAOP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="NCLS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="OHSSE" inspector="Audit">
+<settings>
+<parameter id="level" type="4" value="1"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ONF" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="PIOBCL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="RNFIB" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SAUI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SBC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SIOP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SFS" inspector="Audit">
+<settings>
+<parameter id="check-condition" type="1" value="true"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="UE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="EOBA" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="ILC" inspector="Audit">
+<settings>
+<parameter id="message-out" type="2" value="AuditILC.4,"/>
+<parameter id="Max number of qualified imports" type="0" value="3"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="MNU" inspector="Audit">
+<settings>
+<parameter id="message-out" type="2" value="AuditMNU.2,AuditMNU.4,"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="methods" type="1" value="true"/>
+<parameter id="private-only" type="1" value="false"/>
+<parameter id="fields" type="1" value="true"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="OIM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="UMM" inspector="Audit">
+<settings>
+<parameter id="check-interface" type="1" value="true"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="check-final" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+<parameter id="check-anonymous" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="URSP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CWCL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AUY" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AUS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="DEADLOCK" inspector="Audit">
+<settings>
+<parameter id="override-alien-methods" type="1" value="false"/>
+<parameter id="report-all-loops" type="1" value="false"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="all-public-reentrant" type="1" value="false"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IMU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="OSMWNS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="RC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="DBLCK" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="NSAC" inspector="Audit">
+<settings>
+<parameter id="classlist" type="5">
+<parameter id="java.util.ArrayList" type="2" value=""/>
+<parameter id="java.util.HashMap" type="2" value=""/>
+<parameter id="java.util.HashSet" type="2" value=""/>
+<parameter id="java.util.IdentityHashMap" type="2" value=""/>
+<parameter id="java.util.LinkedHashMap" type="2" value=""/>
+<parameter id="java.util.LinkedHashSet" type="2" value=""/>
+<parameter id="java.util.LinkedList" type="2" value=""/>
+<parameter id="java.util.TreeMap" type="2" value=""/>
+<parameter id="java.util.TreeSet" type="2" value=""/>
+<parameter id="java.util.WeakHashMap" type="2" value=""/>
+<parameter id="java.util.ChoiceFormat" type="2" value=""/>
+<parameter id="java.util.DateFormat" type="2" value=""/>
+<parameter id="java.util.DecimalFormat" type="2" value=""/>
+<parameter id="java.util.Format.java" type="2" value=""/>
+<parameter id="java.util.MessageFormat" type="2" value=""/>
+<parameter id="java.util.NumberFormat" type="2" value=""/>
+<parameter id="java.util.SimpleDateFormat" type="2" value=""/>
+</parameter>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="classlistpath" type="2" value=""/>
+<parameter id="uselockgraph" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SANN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AVI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="CSR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="DBM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="DBZ" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="DL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="EVNU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="ignoreNull" type="1" value="true"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="EVAZ" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="EVC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="FIN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IDFC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IOU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="MDL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="MSCOR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="SCOR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="ONE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="AIOR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="ALTL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="ALN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="ANR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IOB" inspector="Audit">
+<settings>
+<parameter id="level" type="0" value="1"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="MAIOR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="MALN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="MANR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="max_deep" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="FNI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="NSR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="CLU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="IL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="IR" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="LBEEO" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="LBNE" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="LNU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="2"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="DC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="depth" type="0" value="6"/>
+<parameter id="weight" type="0" value="14"/>
+</settings>
+</analyzer>
+<analyzer id="DCCB" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="depth" type="0" value="1"/>
+<parameter id="weight" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="DCC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="depth" type="0" value="2"/>
+<parameter id="weight" type="0" value="2"/>
+</settings>
+</analyzer>
+<analyzer id="DCL" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="FUTV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+</settings>
+</analyzer>
+<analyzer id="LMC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="Max call length" type="0" value="2"/>
+</settings>
+</analyzer>
+<analyzer id="MC" inspector="Audit">
+<settings>
+<parameter id="locality" type="0" value="33"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+<parameter id="maxDispersion" type="0" value="3"/>
+<parameter id="minImports" type="0" value="6"/>
+</settings>
+</analyzer>
+<analyzer id="RZLA" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="delphi" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="SDMC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="SSM" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="percent" type="0" value="100"/>
+</settings>
+</analyzer>
+<analyzer id="SSU" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="UIII" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+<parameter id="csharp" type="1" value="true"/>
+<parameter id="vbnet" type="1" value="true"/>
+<parameter id="cpp" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="USP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+</settings>
+</analyzer>
+<analyzer id="DBCV" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="use-dataflow" type="1" value="true"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AHCLS" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AUN" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="AUP" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ICK" inspector="Audit">
+<settings>
+<parameter id="message-out" type="2" value="AuditICK.enum,"/>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="keywords" type="5">
+<parameter id="const" type="2" value=""/>
+<parameter id="delegate" type="2" value=""/>
+<parameter id="goto" type="2" value=""/>
+<parameter id="template" type="2" value=""/>
+<parameter id="enum" type="2" value=""/>
+<parameter id="virtual" type="2" value=""/>
+</parameter>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="ISI" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="NPC" inspector="Audit">
+<settings>
+<parameter id="enabled" type="1" value="true"/>
+<parameter id="severity" type="0" value="1"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="GP" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="WSI" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="DATACLASS" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="GC" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="SS" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="RB" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="ISPV" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="FE" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="GM" inspector="DetectAudit">
+<settings>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+</settings>
+</analyzer>
+<analyzer id="JUCC" inspector="DetectAudit">
+<settings>
+<parameter id="kind" type="4" value="2"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+<analyzer id="JUCM" inspector="DetectAudit">
+<settings>
+<parameter id="kind" type="4" value="3"/>
+<parameter id="enabled" type="1" value="false"/>
+<parameter id="severity" type="0" value="0"/>
+<parameter id="language" type="5">
+<parameter id="java" type="1" value="true"/>
+</parameter>
+</settings>
+</analyzer>
+</analyzer-configuration>
